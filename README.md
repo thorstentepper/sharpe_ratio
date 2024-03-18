@@ -17,6 +17,21 @@ Point app.py to the correct file paths for stock and benchmark data and execute 
 ## Files used
 The project uses two csv-files available via DataCamp: 'stock_data.csv' and 'benchmark_data.csv'
 
+The stock_data.csv file contains 3 columns; the date column is used as an index when the data is imported. Here are the data types present in the dataset:
+
+| column_name | data_type |
+|-------------|-----------|
+| Date        | (Index)   |
+| Amazon      | float64   |
+| Facebook    | float64   |
+
+The benchmark_data.csv file contains 2 columns; the date column is used as an index when the data is imported. Here are the data types present in the dataset:
+
+| column_name | data_type |
+|-------------|-----------|
+| Date        | (Index)   |
+| S&P 500     | float64   |
+
 
 ## Credits
 Stefan Jansen created the project tasks for DataCamp.
